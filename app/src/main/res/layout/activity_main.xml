@@ -14,7 +14,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:visibility="gone">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -264,15 +265,17 @@
             android:id="@+id/mainEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Type in here!1"
-            android:inputType="textMultiLine" />
+            android:hint="Type in here!1 (Russian input)"
+            android:inputType="textMultiLine"
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/previewText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hello World!"
-            android:textSize="18sp"
+            android:padding="8sp"
+            android:text="Выхлоп (output)"
+            android:textSize="24sp"
             android:textStyle="bold" />
     </LinearLayout>
 
